@@ -2,17 +2,36 @@
 	<head>
 		<title>Home</title>
 		<style>
+			#index-main{
+				width: 980px;
+				margin: 0 auto;
+			}
 			#bloc1{
-			width: 600px;
+			width: 100%;
 			padding: 10px;
 			border: 1px solid #858585;
+			}
+			#bloc1 p{
+				width: 20%;
+				margin: 1%;
+				float: left;
+			}
+			.clearFloat{
+				clear: both;
 			}
 		</style>
 	</head>
 	<body>
-		<h1>Home</h1>
-		<div id="bloc1">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<div id="index-main">
+			<h1>Home</h1>
+			<div id="bloc1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<div class="clearFloat"></div>
+			</div>
+
 		</div>
 	</body>
 </html>
