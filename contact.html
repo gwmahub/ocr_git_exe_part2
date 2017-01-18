@@ -1,7 +1,41 @@
 <!DOCTYPE html>
-	<head><title>Contact</title></head>
+	<head>
+		<title>Contact</title>
+		<style>
+			body{
+				font-family: Arial, sans-serif, Verdana;
+			}
+			
+			#contact-main{
+				width: 980px;
+				margin: 0 auto;
+			}
+			
+			nav ul li{
+				display: inline-block;
+				margin: 20px;
+			}
+			nav a{
+				padding: 10px;
+				text-decoration: none;
+				font-weight: bolder;
+			}
+			nav a:hover{
+				background-color: #dcdcdc;
+			}
+		</style>
+	</head>
 	<body>
 		<div id="contact-main">
+		<h1>Contact</h1>
+			<nav>
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="whoswho.html">Our team</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
 			<form id="contactform">
 			<p id="contact-firstname">
 				<label for="firstname">First name :</label>
